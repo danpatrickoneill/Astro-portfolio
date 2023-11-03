@@ -3,9 +3,13 @@ import { NavMenu, NavMenuItem, Section } from 'astro-boilerplate-components';
 const Navbar = () => (
   <Section>
     <NavMenu>
-      <NavMenuItem href="/posts/">Blogs</NavMenuItem>
-      <NavMenuItem href="/">GitHub</NavMenuItem>
-      <NavMenuItem href="/">Twitter</NavMenuItem>
+      <NavMenuItem href="/posts/">Blog</NavMenuItem>
+      <NavMenuItem href="https://www.github.com/danpatrickoneill">
+        GitHub
+      </NavMenuItem>
+      <NavMenuItem href="./public/assets/DPO-Resume.pdf" target="blank">
+        Resume
+      </NavMenuItem>
     </NavMenu>
   </Section>
 );
