@@ -7,9 +7,6 @@ const Navbar = () => (
       <NavMenuItem href="https://www.github.com/danpatrickoneill">
         GitHub
       </NavMenuItem>
-      <NavMenuItem href="./dist/assets/resume.pdf" target="blank">
-        Resumé
-      </NavMenuItem>
     </NavMenu>
   </Section>
 );
