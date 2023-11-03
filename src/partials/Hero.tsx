@@ -17,7 +17,7 @@ const Hero = () => (
       avatar={<img loading="lazy" />}
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/dan-oneill">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
